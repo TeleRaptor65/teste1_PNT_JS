@@ -162,8 +162,7 @@ const get_book = () => {
      
         default:
             break; */
-    }
-} */
+}
 
 // questão 8
 // by: Lucas
