@@ -142,29 +142,6 @@ const get_book = () => {
 
     book(livro1);
 
-    /* let livros_print = ['Jurassic Park', 'Maktub', 'Arte da Guerra'];
-
-     switch (livro) {
-        case 1:
-
-            alert(`Compra bem sucedida do livro: ${livros_print[0]} \n\nInformações do Livro:\n\t${}`);
-            
-            break;
-
-        case 2:
-
-            alert(`Compra bem sucedida do livro: ${livros_print[1]} \n\nInformações do Livro:\n\t${book.biblioteca.livro2}`);
-
-            break;
-
-        case 3:
-
-            alert(`Compra bem sucedida do livro: ${livros_print[2]} \n\nInformações do Livro:\n\t${book.biblioteca.livro3}`);
-
-            break;     
-     
-        default:
-            break; */
 }
 
 // questão 8
