@@ -134,13 +134,13 @@ function get_book() {
             alert(`Livro 3: ${livros_print[2]} \nPáginas: ${biblioteca.livro3.quantidade_paginas} \nAutor: ${biblioteca.livro3.autor} \nEditora: ${biblioteca.livro3.editora}`)
             break;
         case 1:
-            alert(`Páginas: ${biblioteca.livro1.quantidade_paginas} \nAutor: ${biblioteca.livro1.autor} \nEditora: ${biblioteca.livro1.editora}`)    
+            alert(`Páginas: ${biblioteca.livro1.quantidade_paginas} \nAutor: ${biblioteca.livro1.autor} \nEditora: ${biblioteca.livro1.editora}`);
             break;
         case 2:
-            alert(`Páginas: ${biblioteca.livro2.quantidade_paginas} \nAutor: ${biblioteca.livro2.autor} \nEditora: ${biblioteca.livro2.editora}`)
+            alert(`Páginas: ${biblioteca.livro2.quantidade_paginas} \nAutor: ${biblioteca.livro2.autor} \nEditora: ${biblioteca.livro2.editora}`);
             break;
         case 3:
-            alert(`Páginas: ${biblioteca.livro3.quantidade_paginas} \nAutor: ${biblioteca.livro3.autor} \nEditora: ${biblioteca.livro3.editora}`)
+            alert(`Páginas: ${biblioteca.livro3.quantidade_paginas} \nAutor: ${biblioteca.livro3.autor} \nEditora: ${biblioteca.livro3.editora}`);
             break;
         default:
             break;
