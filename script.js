@@ -108,9 +108,9 @@ function fatorial(){
 // by: Cauã & Lucas
 
 
-const get_book = () => {
+function get_book() {
 
-    const book = (livro) => {
+    function book(livro) {
 
         let biblioteca = {
 
@@ -135,32 +135,36 @@ const get_book = () => {
                     editora: 'E eu sei lá'
             }};
 
-    alert('0 - Todos os livros \n1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra');
+    livros_print = ['Jurassic Park', 'Maktub', 'A Arte da Guerra']
+
+    alert('Mostrar\n\n0 - Todos os livros \n1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra');
 
     livro = parseInt(prompt('Insira a numeração da sua escolha:'))
 
     switch (livro) {
         case 0:
 
-            alert(biblioteca)
-            
+            alert(`Livro 1: ${livros_print[0]} \nPáginas: ${biblioteca.livro1.quantidade_paginas} \nAutor: ${biblioteca.livro1.autor} \nEditora: ${biblioteca.livro1.editora}`)
+            alert(`Livro 2: ${livros_print[1]} \nPáginas: ${biblioteca.livro2.quantidade_paginas} \nAutor: ${biblioteca.livro2.autor} \nEditora: ${biblioteca.livro2.editora}`)
+            alert(`Livro 3: ${livros_print[2]} \nPáginas: ${biblioteca.livro3.quantidade_paginas} \nAutor: ${biblioteca.livro3.autor} \nEditora: ${biblioteca.livro3.editora}`)
+
             break;
 
         case 1:
 
-            alert(biblioteca.livro1)
+            alert(`Páginas: ${biblioteca.livro1.quantidade_paginas} \nAutor: ${biblioteca.livro1.autor} \nEditora: ${biblioteca.livro1.editora}`)
             
             break;
 
         case 2:
 
-            alert(biblioteca.livro2)
+            alert(`Páginas: ${biblioteca.livro2.quantidade_paginas} \nAutor: ${biblioteca.livro2.autor} \nEditora: ${biblioteca.livro2.editora}`)
             
             break;
 
         case 3:
 
-            alert(biblioteca.livro3)
+            alert(`Páginas: ${biblioteca.livro3.quantidade_paginas} \nAutor: ${biblioteca.livro3.autor} \nEditora: ${biblioteca.livro3.editora}`)
             
             break;
     
@@ -171,9 +175,10 @@ const get_book = () => {
         
     };
 
-    book(livro1);
+    book()
 
 }
+
 
 // questão 8
 // by: Lucas
