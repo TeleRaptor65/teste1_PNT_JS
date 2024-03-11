@@ -157,7 +157,7 @@ const get_book = () => {
             alert(`Compra bem sucedida do livro: ${livros_print[2]} \n\nInformações do Livro:\n\t${book.biblioteca.livro3}`)
 
             break
-    
+     
         default:
             break;
     }
