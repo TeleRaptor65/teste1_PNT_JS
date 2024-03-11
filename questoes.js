@@ -89,7 +89,7 @@ function primo(){
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// questão 5
+// questão 6
 // by: Lucas
 
 function fatorial(){
@@ -195,5 +195,20 @@ const carro = () => {
 // by: Lucas
 
 const numWhile = () => {
-    
-}
+    console.log('Números pares entre 10 e 20:');
+    while (numero <= 20){
+        if (numero % 2 === 0) {
+            console.log(numero);
+        }
+        numero++;
+    }
+
+    numero = 10; // Reiniciando o número para 10
+
+    console.log('Número ímpares entre 10 e 20:');
+    while (numero <= 20){
+        if (numero % 2 !== 0) {
+            console.log(numero);
+        };
+    };
+};
