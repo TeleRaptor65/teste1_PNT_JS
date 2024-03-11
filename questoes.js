@@ -211,4 +211,6 @@ const numWhile = () => {
             console.log(numero);
         };
     };
+
+    alert('Abra o console!');
 };
