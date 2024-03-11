@@ -3,14 +3,14 @@
 
 const ask_3_numbers = () => {
 
-    let nums = []
+    let nums = [];
 
     for (let i = 0; i < 3; i++) {
-        nums[i] = parseFloat(prompt(`Insira o ${i+1}º número: `))
-    }
+        nums[i] = parseFloat(prompt(`Insira o ${i+1}º número: `));
+    };
 
-    alert(`Array pura: ${nums} \nArray modificada: ${nums.reverse()}`)
-}
+    alert(`Array pura: ${nums} \nArray modificada: ${nums.reverse()}`);
+};
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -19,7 +19,7 @@ const ask_3_numbers = () => {
 const my_fruits = () => {
     fruta = ['Maçã', 'Jambo', 'Banuina', 'Mango'];
 
-    alert(`Minhas frutas favoritas:\n${fruta.join(', ')}`)
+    alert(`Minhas frutas favoritas:\n${fruta.join(', ')}`);
 };
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -28,7 +28,7 @@ const my_fruits = () => {
 // by: Cauã
 
 const impopar = () => {
-    const numeros = [0, 1, 2, 3, 4, 5]
+    const numeros = [0, 1, 2, 3, 4, 5];
 
     numeros.forEach(numeros => {
         if (numeros == 0){
@@ -37,9 +37,9 @@ const impopar = () => {
             console.log(`${numeros} é um número par`)
         } else {
             console.log(`${numeros} é um número ímpar`)
-        }
-    })
-}
+        };
+    });
+};
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -48,13 +48,13 @@ const impopar = () => {
 
 const registrar = () => {
 
-    let user_name = prompt('Nome de usuário: ') 
-    let pword = ''
+    let user_name = prompt('Nome de usuário: ');
+    let pword = '';
     
 
     while (error = true) {
 
-        pword = prompt('Senha: ')
+        pword = prompt('Senha: ');
 
         if (pword == user_name) {
             alert('Erro. Sua senha não pode ser idêntica ao seu nome de usuário')
@@ -66,9 +66,9 @@ const registrar = () => {
             
             error = false
             break   
-        }
-    }
-}
+        };
+    };
+};
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -93,13 +93,13 @@ function primo(){
 // by: Lucas
 
 function fatorial(){
-    let valorFatorial = 10
+    let valorFatorial = 10;
 
     for (let i = 10; i > 0; i--) {
-        valorFatorial *= i
+        valorFatorial *= i;
     };
 
-    alert(`10! = ${valorFatorial}`)
+    alert(`10! = ${valorFatorial}`);
 };
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -110,7 +110,7 @@ function fatorial(){
 
 const get_book = () => {
 
-    alert('1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra')
+    alert('1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra');
 
     const book = (livro) => {
 
@@ -135,12 +135,12 @@ const get_book = () => {
             }
 
             
-        }
+        };
 
-        alert(livro)
-    }
-    
-    book(livro1)
+        alert(livro);
+    };
+
+    book(livro1);
 
     /* let livros_print = ['Jurassic Park', 'Maktub', 'Arte da Guerra'];
 
