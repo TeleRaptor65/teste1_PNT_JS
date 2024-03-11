@@ -110,34 +110,65 @@ function fatorial(){
 
 const get_book = () => {
 
-    alert('1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra');
-
     const book = (livro) => {
 
         let biblioteca = {
 
-            livro1: jurassicpark = {
-                quantidade_paginas: 365,
-                autor: 'Michael Crichton',
-                editora: 'Shonen Jump'
+            livro1: 
+                jurassicpark = {
+                    quantidade_paginas: 365,
+                    autor: 'Michael Crichton',
+                    editora: 'Shonen Jump'
             },
 
-            livro2: maktub = {
-                quantidade_paginas: 123,
-                autor: 'Paulo Coelho',
-                editora: 'Jardim dos Livros'
+            livro2: 
+                maktub = {
+                    quantidade_paginas: 123,
+                    autor: 'Paulo Coelho',
+                    editora: 'Jardim dos Livros'
             },
 
-            livro3: a_arte_da_guerra = {
-                quantidade_paginas: 323,
-                autor: 'Sun Tzu',
-                editora: 'E eu sei lá'
-            }
+            livro3: 
+                a_arte_da_guerra = {
+                    quantidade_paginas: 323,
+                    autor: 'Sun Tzu',
+                    editora: 'E eu sei lá'
+            }};
 
+    alert('0 - Todos os livros \n1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra');
+
+    livro = parseInt(prompt('Insira a numeração da sua escolha:'))
+
+    switch (livro) {
+        case 0:
+
+            alert(biblioteca)
             
-        };
+            break;
 
-        alert(livro);
+        case 1:
+
+            alert(biblioteca.livro1)
+            
+            break;
+
+        case 2:
+
+            alert(biblioteca.livro2)
+            
+            break;
+
+        case 3:
+
+            alert(biblioteca.livro3)
+            
+            break;
+    
+        default:
+            break;
+    }
+
+        
     };
 
     book(livro1);
