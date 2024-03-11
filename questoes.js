@@ -111,7 +111,6 @@ function fatorial(){
 const get_book = () => {
 
     alert('1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra')
-    let livro = parseInt(prompt('Número do livro:')) 
 
     const book = (livro) => {
 
@@ -134,15 +133,19 @@ const get_book = () => {
                 autor: 'Sun Tzu',
                 editora: 'E eu sei lá'
             }
+
+            
         }
+
+        alert(livro)
     }
 
-    let livros_print = ['Jurassic Park', 'Maktub', 'Arte da Guerra'];
+    /* let livros_print = ['Jurassic Park', 'Maktub', 'Arte da Guerra'];
 
-    switch (livro) {
+     switch (livro) {
         case 1:
 
-            alert(`Compra bem sucedida do livro: ${livros_print[0]} \n\nInformações do Livro:\n\t${book.biblioteca.livro1}`);
+            alert(`Compra bem sucedida do livro: ${livros_print[0]} \n\nInformações do Livro:\n\t${}`);
             
             break;
 
@@ -161,7 +164,7 @@ const get_book = () => {
         default:
             break;
     }
-}
+} */
 
 // questão 8
 // by: Lucas
