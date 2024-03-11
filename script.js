@@ -109,7 +109,9 @@ function fatorial(){
 
 
 function get_book() {
+
     function book(livro) {
+
         let biblioteca = {
             livro1: jurassicpark = {
                     quantidade_paginas: 365,
