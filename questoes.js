@@ -142,19 +142,19 @@ const get_book = () => {
     switch (livro) {
         case 1:
 
-            alert(`Compra bem sucedida do livro: ${livros_print[0]} \n\nInformações do Livro:\n\t${book.livro1}`)
+            alert(`Compra bem sucedida do livro: ${livros_print[0]} \n\nInformações do Livro:\n\t${book.biblioteca.livro1}`)
             
             break;
 
         case 2:
 
-            alert(`Compra bem sucedida do livro: ${livros_print[1]} \n\nInformações do Livro:\n\t${book.livro2}`)
+            alert(`Compra bem sucedida do livro: ${livros_print[1]} \n\nInformações do Livro:\n\t${book.biblioteca.livro2}`)
 
             break
 
         case 3:
 
-            alert(`Compra bem sucedida do livro: ${livros_print[2]} \n\nInformações do Livro:\n\t${book.livro3}`)
+            alert(`Compra bem sucedida do livro: ${livros_print[2]} \n\nInformações do Livro:\n\t${book.biblioteca.livro3}`)
 
             break
     
