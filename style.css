@@ -1,5 +1,11 @@
 body{
-    background-color: darkred;
+    align-items: center;
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+    font-family: "Dosis", sans-serif;
+    font-display: swap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #main_title_text{

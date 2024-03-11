@@ -187,3 +187,8 @@ const carro = () => {
 
     alert(`Cor do Carro: ${carro.obterCor()}\nModelo do Carro: ${carro.obterModelo()}`)
 };
+
+// questão 9
+// by: Lucas
+
+const n
