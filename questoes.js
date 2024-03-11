@@ -127,6 +127,20 @@ const get_book = () => {
 // questão 8
 // by: Lucas
 
-const carro = () => [
-    
-]
+const carro = () => {
+    let objCarro = {
+        marca: "Fiat",
+        modelo: "Argo",
+        placa: "123dafg3",
+        ano: "2024",
+        cor: "Vermelho",
+        quantasPortas: "4",
+        assentos: "5",
+        quantidadePessoas: "5",
+    };
+
+    let obterCor = objCarro.cor;
+    let obterModelo = objCarro.modelo;
+
+    alert(`Cor do Carro: ${obterCor}\nModelo do Carro: ${obterModelo}`)
+};
