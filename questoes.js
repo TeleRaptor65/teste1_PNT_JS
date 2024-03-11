@@ -191,4 +191,6 @@ const carro = () => {
 // questão 9
 // by: Lucas
 
-const n
+const numWhile = () => {
+    
+}
