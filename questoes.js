@@ -110,7 +110,7 @@ function fatorial(){
 
 const get_book = () => {
 
-    alert('1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra')
+    // alert('1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra')
 
     const book = (livro) => {
 
@@ -132,13 +132,12 @@ const get_book = () => {
                 quantidade_paginas: 323,
                 autor: 'Sun Tzu',
                 editora: 'E eu sei lá'
-            }
+            }}
+        
 
-            
-        }
-
-        alert(livro)
     }
+
+    book(livro1)
 
     /* let livros_print = ['Jurassic Park', 'Maktub', 'Arte da Guerra'];
 
@@ -162,7 +161,7 @@ const get_book = () => {
             break;     
      
         default:
-            break;
+            break; */
     }
 } */
 
