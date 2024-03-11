@@ -178,8 +178,12 @@ const carro = () => {
         quantidadePessoas: "5",
     };
 
-    let obterCor = objCarro.cor;
-    let obterModelo = objCarro.modelo;
+    const obterCor = () => {
+        return objCarro.cor;
+    };
+    const obterModelo = () => {
+        return objCarro.modelo;
+    };
 
-    alert(`Cor do Carro: ${obterCor}\nModelo do Carro: ${obterModelo}`)
+    alert(`Cor do Carro: ${carro.obterCor()}\nModelo do Carro: ${carro.obterModelo()}`)
 };
