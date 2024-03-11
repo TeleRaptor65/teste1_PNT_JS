@@ -104,7 +104,7 @@ function fatorial(){
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// questão 6
+// questão 7
 // by: Cauã & Lucas
 
 
@@ -122,5 +122,11 @@ const get_book = () => {
             }
         }
     }
-
 }
+
+// questão 8
+// by: Lucas
+
+const carro = () => [
+    
+]
