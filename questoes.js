@@ -89,7 +89,7 @@ function primo(){
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// questão 6
+// questão 5
 // by: Lucas
 
 function fatorial(){
@@ -110,17 +110,56 @@ function fatorial(){
 
 const get_book = () => {
 
-    let livro = prompt('Nome: ') 
+    alert('1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra')
+    let livro = parseInt(prompt('Número do livro:')) 
 
     const book = (livro) => {
 
         let biblioteca = {
 
-            livro1: JurassicPark = {
-                quantidadePaginas: 365,
-                autor: 'Michael Crichton'
+            livro1: jurassicpark = {
+                quantidade_paginas: 365,
+                autor: 'Michael Crichton',
+                editora: 'Shonen Jump'
+            },
+
+            livro2: maktub = {
+                quantidade_paginas: 123,
+                autor: 'Paulo Coelho',
+                editora: 'Jardim dos Livros'
+            },
+
+            livro3: a_arte_da_guerra = {
+                quantidade_paginas: 323,
+                autor: 'Sun Tzu',
+                editora: 'E eu sei lá'
             }
         }
+    }
+
+    let livros_print = ['Jurassic Park', 'Maktub', 'Arte da Guerra']
+
+    switch (livro) {
+        case 1:
+
+            alert(`Compra bem sucedida do livro: ${livros_print[0]}`)
+            
+            break;
+
+        case 2:
+
+            alert(`Compra bem sucedida do livro: ${livros_print[1]}`)
+
+            break
+
+        case 3:
+
+            alert(`Compra bem sucedida do livro: ${livros_print[2]}`)
+
+            break
+    
+        default:
+            break;
     }
 }
 
