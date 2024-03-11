@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+#main_title{
+    background-color: red;
+
+    color: black;
+
+    border: solid black 0.5vw;
+    border-radius: 0.5vw;
+
+    padding: 0.3%;
+
+    text-align: center;
+}

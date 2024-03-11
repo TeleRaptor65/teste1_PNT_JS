@@ -1,0 +1,16 @@
+form {
+    border: 0.5vw;
+    border-style: solid;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    text-align: center;
+
+    margin-right: 60vw;
+
+    
+}
+
+#forms_registro {
+    left: 5vw;
+}
