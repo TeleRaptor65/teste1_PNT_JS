@@ -152,7 +152,7 @@ function get_book() {
         livro = parseInt(prompt('Insira a numeração da sua escolha:'));
 
         switch (livro) {
-            case null:
+            case 0:
 
                 alert(`Livro 1: ${livros_print[0]} \nPáginas: ${biblioteca.livro1.quantidade_paginas} \nAutor: ${biblioteca.livro1.autor} \nEditora: ${biblioteca.livro1.editora}`)
                 alert(`Livro 2: ${livros_print[1]} \nPáginas: ${biblioteca.livro2.quantidade_paginas} \nAutor: ${biblioteca.livro2.autor} \nEditora: ${biblioteca.livro2.editora}`)
@@ -178,6 +178,10 @@ function get_book() {
                 break;
 
             default:
+
+                alert(`Livro 1: ${livros_print[0]} \nPáginas: ${biblioteca.livro1.quantidade_paginas} \nAutor: ${biblioteca.livro1.autor} \nEditora: ${biblioteca.livro1.editora}`)
+                alert(`Livro 2: ${livros_print[1]} \nPáginas: ${biblioteca.livro2.quantidade_paginas} \nAutor: ${biblioteca.livro2.autor} \nEditora: ${biblioteca.livro2.editora}`)
+                alert(`Livro 3: ${livros_print[2]} \nPáginas: ${biblioteca.livro3.quantidade_paginas} \nAutor: ${biblioteca.livro3.autor} \nEditora: ${biblioteca.livro3.editora}`)        
                 break;
             };
     };
