@@ -77,12 +77,18 @@ const registrar = () => {
 // by: Lucas
 
 function primo(){
-    const numPrimo = prompt('Digite um número: ');
+    const numPrimo = parseInt(prompt('Digite um número: '));
 
-    if (condition) {
+    if (numPrimo == 0) {
+
+        alert(`O número 0 é um número neutro`)
         
+    } else if (numPrimo % 2 === 0 || numPrimo % 3 === 0 || numPrimo % 5 === 0 || numPrimo % 7 === 0 ) {
+        
+        alert(`${numPrimo} não é um número primo`)
     } else {
-        
+
+        alert(`${numPrimo} é um número primo`)
     };
 };
 
