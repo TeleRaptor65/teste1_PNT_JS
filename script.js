@@ -147,12 +147,12 @@ function get_book() {
 
         livros_print = ['Jurassic Park', 'Maktub', 'A Arte da Guerra'];
 
-        alert('Mostrar\n\n0 - Todos os livros \n1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra');
+        alert('Mostrar\n\n1 - Jurassic Park \n2 - Maktub \n3 - A Arte da Guerra');
 
         livro = parseInt(prompt('Insira a numeração da sua escolha:'));
 
         switch (livro) {
-            case 0:
+            case null:
 
                 alert(`Livro 1: ${livros_print[0]} \nPáginas: ${biblioteca.livro1.quantidade_paginas} \nAutor: ${biblioteca.livro1.autor} \nEditora: ${biblioteca.livro1.editora}`)
                 alert(`Livro 2: ${livros_print[1]} \nPáginas: ${biblioteca.livro2.quantidade_paginas} \nAutor: ${biblioteca.livro2.autor} \nEditora: ${biblioteca.livro2.editora}`)
