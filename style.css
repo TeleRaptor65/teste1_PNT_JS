@@ -23,6 +23,7 @@ body{
 }
 
 .wrapper {
+    top: 20%;
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     border-radius: 16px;
@@ -43,7 +44,7 @@ body{
 
     text-align: center;
 
-    background-color: blue;
+    background-color: #63c9b4;
     
     padding: 0.5vw;
 
