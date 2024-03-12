@@ -52,7 +52,7 @@ const registrar = () => {
     let pword = '';
     
 
-    while (error = true) {
+    while (error == true) {
 
         pword = prompt('Senha: ');
 
