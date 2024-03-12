@@ -117,18 +117,23 @@ function get_book() {
                     jurassicpark = {
                     quantidade_paginas: 365,
                     autor: 'Michael Crichton',
-                    editora: 'Shonen Jump' },
+                    editora: 'Shonen Jump' 
+                },
+
             livro2: 
                     maktub = {
                     quantidade_paginas: 123,
                     autor: 'Paulo Coelho',
-                    editora: 'Jardim dos Livros'},
+                    editora: 'Jardim dos Livros'
+                },
+
             livro3: 
                     a_arte_da_guerra = {
                     quantidade_paginas: 323,
                     autor: 'Sun Tzu',
-                    editora: 'E eu sei lá'}
-                };
+                    editora: 'E eu sei lá'
+                }
+            };
 
     livros_print = ['Jurassic Park', 'Maktub', 'A Arte da Guerra'];
 
@@ -241,5 +246,5 @@ const nome = () => {
     let nomeInvertido = myName.reverse().join('');
     console.log(nomeInvertido); // Saída: avliS ad somaR leirbaG sacuL
 
-    alert('Olhe o console!');
+    alert('Olhe o console!')
 };
