@@ -148,10 +148,12 @@ function get_book() {
     };
 };
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 // questão 8
 // by: Lucas
 
-const carro = () => {
+function carro(){
     let objCarro = {
         marca: "Fiat",
         modelo: "Argo",
@@ -163,12 +165,61 @@ const carro = () => {
         quantidadePessoas: "5",
     };
 
-    const obterCor = () => {
+    let obterCor = () => {
         return objCarro.cor;
     };
-    const obterModelo = () => {
+    let obterModelo = () => {
         return objCarro.modelo;
     };
 
-    alert(`Cor do Carro: ${carro.obterCor()}\nModelo do Carro: ${carro.obterModelo()}`);
+    alert(`Cor do Carro: ${obterCor()}\nModelo do Carro: ${obterModelo()}`);
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// questão 9
+// by: Lucas
+
+const numWhile = () => {
+    let num = 10;
+
+    console.log('Números pares entre 10 e 20:');
+    while (num <= 20) {
+        if (num % 2 === 0) {
+            console.log(num);
+        };
+        num++;
+    };
+    
+    num = 10; // Reiniciando o número para 10
+
+    console.log('Números ímpares entre 10 e 20:');
+    while (num <= 20) {
+      if (num % 2 !==  0) {
+        console.log(num);
+      };
+      num++;
+    };
+
+    alert('Olhe o console!')
+};
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// questão 10
+// by: Lucas
+
+const nome = () => {
+    // Criando um array com cada letra do nome "Lucas Gabriel Ramos da Silva"
+    let myName = ['L', 'u', 'c', 'a', 's', ' ', 'G', 'a', 'b', 'r', 'i', 'e', 'l', ' ', 'R', 'a', 'm', 'o', 's', ' ', 'd', 'a', ' ', 'S', 'i', 'l', 'v', 'a'];
+
+    // Juntando todos os itens do array para formar o nome completo
+    let nomeCompleto = myName.join('');
+    console.log(nomeCompleto); // Saída: Lucas Gabriel Ramos da Silva
+
+    // Invertendo o array e juntando os itens para formar o nome invertido
+    let nomeInvertido = myName.reverse().join('');
+    console.log(nomeInvertido); // Saída: avliS ad somaR leirbaG sacuL
+
+    alert('Olhe o console!');
 };
