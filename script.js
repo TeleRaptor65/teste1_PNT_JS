@@ -83,6 +83,10 @@ function primo(){
 
         alert(`O número 0 é um número neutro`)
         
+    } else if (numPrimo == 2 || numPrimo == 3 || numPrimo == 5 || numPrimo == 7) {
+
+        alert(`${numPrimo} é um número primo`)
+
     } else if (numPrimo % 2 === 0 || numPrimo % 3 === 0 || numPrimo % 5 === 0 || numPrimo % 7 === 0 ) {
         
         alert(`${numPrimo} não é um número primo`)
