@@ -50,6 +50,7 @@ const registrar = () => {
 
     let user_name = prompt('Nome de usuário: ');
     let pword = '';
+    let error = false
     
 
     while (error == true) {
